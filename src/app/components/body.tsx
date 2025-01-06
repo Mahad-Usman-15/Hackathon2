@@ -30,9 +30,9 @@ export default function Body() {
               <h1 className="text1">
                 Summer 2020
                 <br />
-                <span className="text-white text3"> New Collection</span>
+                <span className="text-white  ml-10 text-4xl sm:text-2xl">New Collection</span>
               </h1>
-              <p className="max-w-md mx-auto text-lg text-gray-300 sm:text-xl mt-4 md:mt-6 md:max-w-3xl text2">
+              <p className="max-w-md mx-auto text-lg text-gray-300 sm:text-xl mt-4 md:mt-6 md:max-w-3xl ">
                 We know that large objects will act but things on a small scale
               </p>
               <div className="mt-12 flex max-sm:flex-col sm:justify-center lg:justify-start gap-4">
@@ -55,14 +55,14 @@ export default function Body() {
 
 
 
-      <div className="main font-[sans-serif]">
+      <div className="main font-[sans-serif] ">
       <div className="font-[sans-serif] py-4 mx-auto lg:max-w-7xl sm:max-w-full">
-        <div className="text4">
-        <h3>Featured products</h3>
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-12">
+        <div className="flex flex-col justify-center items-start">
+        <h3 className="ml-20 mt-10 text-xl">Featured products</h3>
+          <h2 className="text-4xl ml-20 font-extrabold text-gray-800 mt-10 mb-5">
             Best Seller Products
           </h2>
-          <h4 className="text">problems trying to resolve the conflict between</h4>
+          <h4 className="">problems trying to resolve the conflict between</h4>
 
         </div>
        
@@ -393,8 +393,9 @@ export default function Body() {
             </div>
           </div>
 
-          <Image className="img" src={pic7} alt="" height={850} width={1440}></Image>
-          <Image className="img" src={pic8} alt="" height={850} width={1440}></Image>
+          <Image className="img" src={pic7} alt="Image 7" layout="responsive" width={1440} height={850}/>
+
+<Image className="img" src={pic8} alt="Image 8" layout="responsive" width={1440} height={850}/>
 
 
 
@@ -496,3 +497,4 @@ export default function Body() {
 
   )
 }
+  
